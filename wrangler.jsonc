@@ -1,8 +1,0 @@
-{
-  "name": "tiback",
-  "compatibility_date": "2026-09-08",
-  "assets": {
-    "directory": "./public",
-    "html_handling": "auto-trailing-slash"
-  }
-}
