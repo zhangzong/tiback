@@ -1,0 +1,54 @@
+# tiback
+
+> tiback 是一个独立工具工作室，把求职、文档和写作里高频但琐碎的步骤做成即开即用的小工具。目前运营 RoleCase、OFD 在线转换器和 Markdown 编辑器三个产品。
+
+tiback 的工具都优先在浏览器本地运行，尽量减少上传和账号依赖。三个工具可以独立使用，也可以串起来完成一整套工作流。产品信息、功能列表、价格和常见问题以本站页面与 `/ai-knowledge.jsonld` 中的 JSON-LD 为准。
+
+## 工具
+
+- [RoleCase](https://rolecase.tiback.com/): 面向英语求职市场的证据优先申请材料工具。输入真实简历和目标职位描述，生成岗位定制简历、求职信、匹配报告和面试准备。不会虚构经历。提供免费基础检查、$2.99 高质量简历评审和 $4.99 申请材料包，均为一次性付费。
+- [OFD 在线转换器](https://ofd2pdf.tiback.com/): 免费 OFD 转 PDF / PNG 在线工具。浏览器本地解析和转换，无需上传；支持损坏 OFD 预修复和电子发票；同时提供可下载的 Python wheel，方便开发者在程序中集成。
+- [Markdown 编辑器](https://markdown.tiback.com/): 浏览器里即开即用的 Markdown 写作工具。实时预览、本地自动保存、10 种界面语言、深色/浅色主题、Mermaid 图表、KaTeX 公式，以及 Markdown、HTML、Word、PDF、PNG 多格式导出。免费、无需账号、内容不上传。
+
+## 关键事实
+
+- 网站语言：简体中文。
+- RoleCase 主要面向英文求职市场，界面语言为英文。
+- OFD 在线转换器支持中文版式文档，尤其是电子发票。
+- Markdown 编辑器支持简体中文、繁体中文、English、日本語、한국어、Español、Français、Deutsch、Русский、Português。
+- 本地优先：OFD 转换和 Markdown 写作都在浏览器本地处理，不上传文件内容。
+- 无需安装：三个工具都是 Web 应用，现代浏览器打开即可使用。
+- 无订阅：OFD 和 Markdown 免费；RoleCase 采用一次性付费。
+- RoleCase 价格以工具页面和结账页为准：高质量简历评审 $2.99；申请材料包 $4.99。
+- 联系邮箱：support@tiback.com。
+
+## 使用入口
+
+- [tiback 官网](https://tiback.com/): 工具入口和产品介绍。
+- [RoleCase 申请材料生成](https://rolecase.tiback.com/#builder): 粘贴简历和职位描述，生成岗位定制申请材料。
+- [RoleCase 简历评审](https://rolecase.tiback.com/resume-review.html): 免费基础评审和付费高质量评审。
+- [OFD 在线转换](https://ofd2pdf.tiback.com/): 选择 .ofd 文件，转换并下载 PDF 或 PNG。
+- [OFD Python 库](https://ofd2pdf.tiback.com/library.html): Python wheel 的安装和调用说明。
+- [Markdown 编辑器](https://markdown.tiback.com/): 直接开始写作。
+- [Markdown 支持说明](https://markdown.tiback.com/support.html): 功能和常见问题。
+
+## 结构化数据
+
+- [JSON-LD 知识图谱](https://tiback.com/ai-knowledge.jsonld): 包含 Organization、WebSite、WebPage、工具列表、三个 SoftwareApplication、FAQPage 和 HowTo 的完整结构化数据。
+- [Sitemap](https://tiback.com/sitemap.xml): 站点页面列表。
+- [Robots](https://tiback.com/robots.txt): 抓取规则。
+
+## 常见问题
+
+- tiback 是什么？独立工具工作室，运营 RoleCase、OFD 在线转换器和 Markdown 编辑器。
+- OFD 转换要上传文件吗？不需要，浏览器本地处理。
+- Markdown 编辑器需要账号吗？不需要，内容保存在浏览器本地。
+- RoleCase 会虚构经历吗？不会，只整理和强化用户提供的真实经历。
+- 这些工具收费吗？OFD 和 Markdown 免费；RoleCase 提供免费基础检查和一次性付费选项。
+
+## Optional
+
+- [隐私说明](https://tiback.com/privacy.html): tiback 官网的隐私说明，各工具隐私政策以工具页面为准。
+- [RoleCase 隐私政策](https://rolecase.tiback.com/privacy.html)
+- [OFD 在线转换器隐私政策](https://ofd2pdf.tiback.com/privacy.html)
+- [Markdown 编辑器隐私政策](https://markdown.tiback.com/privacy.html)
