@@ -6,7 +6,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade" />
     <meta
       name="description"
-      content="tiback 是一个独立工具工作室，运营 RoleCase、OFD 在线转换器和 Markdown 编辑器，把高频但琐碎的工作做成即开即用的小工具。"
+      content="tiback 是一个独立工具工作室，运营 RoleCase、OFD 在线转换器、Markdown 编辑器，以及圆环竞技场和 Grow Arena 两款浏览器小游戏。"
     />
     <meta name="robots" content="index, follow" />
     <meta name="theme-color" content="#141a17" />
@@ -17,7 +17,7 @@
     <meta property="og:title" content="tiback — 独立工具工作室" />
     <meta
       property="og:description"
-      content="我们把求职、文档和写作里最重复的步骤，做成即开即用的小工具。本地优先，定价简单。"
+      content="我们把求职、文档和写作里最重复的步骤做成即开即用的小工具，也做了两款打开就能玩的浏览器游戏。本地优先，定价简单。"
     />
     <meta property="og:url" content="https://tiback.com/" />
     <meta property="og:locale" content="zh_CN" />
@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="tiback — 独立工具工作室" />
     <meta
       name="twitter:description"
-      content="运营 RoleCase、OFD 在线转换器和 Markdown 编辑器三个即开即用的小工具。"
+      content="运营 RoleCase、OFD 在线转换器、Markdown 编辑器，以及圆环竞技场和 Grow Arena 两款小游戏。"
     />
 
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -82,6 +82,14 @@
           {
             "@type": "Offer",
             "itemOffered": { "@id": "https://markdown.tiback.com/#software" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@id": "https://circle-war.tiback.com/#software" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@id": "https://grow-war.tiback.com/#software" }
           }
         ]
       }
@@ -92,7 +100,7 @@
       "url": "https://tiback.com/",
       "name": "tiback",
       "alternateName": "tiback 官方工具站",
-      "description": "tiback 官方网站，聚合 RoleCase、OFD 在线转换器和 Markdown 编辑器三个即开即用的小工具。",
+      "description": "tiback 官方网站，聚合 RoleCase、OFD 在线转换器、Markdown 编辑器三个效率工具，以及圆环竞技场和 Grow Arena 两款浏览器小游戏。",
       "inLanguage": "zh-CN",
       "publisher": { "@id": "https://tiback.com/#organization" },
       "copyrightHolder": { "@id": "https://tiback.com/#organization" },
@@ -105,7 +113,7 @@
       "@id": "https://tiback.com/#webpage",
       "url": "https://tiback.com/",
       "name": "tiback — 独立工具工作室",
-      "description": "tiback 运营 RoleCase、OFD 在线转换器和 Markdown 编辑器，提供求职材料、OFD 文档转换和 Markdown 写作工具。",
+      "description": "tiback 运营 RoleCase、OFD 在线转换器、Markdown 编辑器、圆环竞技场和 Grow Arena，提供求职材料、OFD 文档转换、Markdown 写作和浏览器游戏。",
       "isPartOf": { "@id": "https://tiback.com/#website" },
       "about": { "@id": "https://tiback.com/#organization" },
       "mainEntity": { "@id": "https://tiback.com/#tools" },
@@ -117,8 +125,8 @@
       "@type": "ItemList",
       "@id": "https://tiback.com/#tools",
       "name": "tiback 工具合集",
-      "description": "tiback 目前运营的三个工具：RoleCase、OFD 在线转换器和 Markdown 编辑器。",
-      "numberOfItems": 3,
+      "description": "tiback 目前运营的五个产品：RoleCase、OFD 在线转换器、Markdown 编辑器、圆环竞技场和 Grow Arena。",
+      "numberOfItems": 5,
       "itemListOrder": "https://schema.org/ItemListOrderAscending",
       "itemListElement": [
         {
@@ -141,6 +149,20 @@
           "name": "Markdown 编辑器",
           "url": "https://markdown.tiback.com/",
           "item": { "@id": "https://markdown.tiback.com/#software" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "圆环竞技场",
+          "url": "https://circle-war.tiback.com/",
+          "item": { "@id": "https://circle-war.tiback.com/#software" }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Grow Arena",
+          "url": "https://grow-war.tiback.com/",
+          "item": { "@id": "https://grow-war.tiback.com/#software" }
         }
       ]
     },
@@ -348,6 +370,120 @@
       "dateModified": "2026-09-04"
     },
     {
+      "@type": "VideoGame",
+      "@id": "https://circle-war.tiback.com/#software",
+      "name": "圆环竞技场",
+      "alternateName": ["Circle Arena", "Circle War"],
+      "url": "https://circle-war.tiback.com/",
+      "mainEntityOfPage": "https://circle-war.tiback.com/",
+      "description": "一款自动生产、手动指挥的轻量策略对战小游戏。基地持续出兵，拖动圈选部队下达命令，占领中立建筑，选择三选一强化，摧毁对手基地赢下每局。支持 3–6 人对战。",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Strategy battle game",
+      "operatingSystem": "Any",
+      "browserRequirements": "现代浏览器（Chrome、Edge、Firefox、Safari）",
+      "inLanguage": "zh-CN",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "name": "免费游玩",
+        "description": "浏览器打开即可游玩的策略对战小游戏。",
+        "price": "0",
+        "priceCurrency": "CNY",
+        "url": "https://circle-war.tiback.com/",
+        "availability": "https://schema.org/InStock"
+      },
+      "featureList": [
+        "3–6 人对战",
+        "基地自动生产兵种",
+        "拖动圈选部队指挥",
+        "占领中立建筑",
+        "三选一战术强化",
+        "指挥官技能与单位合成",
+        "排行榜与金币系统"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "喜欢策略对战、自动战斗和轻量网页游戏的玩家"
+      },
+      "keywords": "圆环竞技场, Circle Arena, Circle War, 策略对战, 自动战斗, 圈选指挥, 中立建筑, 三选一强化, 网页小游戏",
+      "publisher": { "@id": "https://tiback.com/#organization" },
+      "isPartOf": { "@id": "https://tiback.com/#website" },
+      "image": "https://tiback.com/assets/circle-arena.png",
+      "softwareHelp": "https://circle-war.tiback.com/how-to-play.html",
+      "potentialAction": {
+        "@type": "UseAction",
+        "name": "Play Circle Arena",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://circle-war.tiback.com/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "datePublished": "2026-09-14",
+      "dateModified": "2026-09-20"
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "https://grow-war.tiback.com/#software",
+      "name": "Grow Arena",
+      "alternateName": ["Grow War", "成长竞技场"],
+      "url": "https://grow-war.tiback.com/",
+      "mainEntityOfPage": "https://grow-war.tiback.com/",
+      "description": "一款轻量吞噬竞技游戏：在竞技场里收集能量、不断变大，躲避更大的对手并吞噬更小的目标。支持 10 人和 16 人模式、排行榜、金币和外观商店。战斗模拟在浏览器本地完成，账号、金币和排行由 Cloudflare Worker 提供。",
+      "applicationCategory": "GameApplication",
+      "applicationSubCategory": "Arena survival game",
+      "operatingSystem": "Any",
+      "browserRequirements": "现代浏览器（Chrome、Edge、Firefox、Safari）",
+      "inLanguage": "zh-CN",
+      "isAccessibleForFree": true,
+      "offers": {
+        "@type": "Offer",
+        "name": "免费游玩",
+        "description": "浏览器打开即可游玩的吞噬竞技游戏。",
+        "price": "0",
+        "priceCurrency": "CNY",
+        "url": "https://grow-war.tiback.com/",
+        "availability": "https://schema.org/InStock"
+      },
+      "featureList": [
+        "10 人模式",
+        "16 人模式",
+        "吞噬能量不断成长",
+        "排行榜",
+        "金币与每日任务",
+        "外观与背景商店",
+        "浏览器本地战斗模拟",
+        "匿名会话"
+      ],
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "喜欢轻量多人竞技、成长玩法和浏览器游戏的玩家"
+      },
+      "keywords": "Grow Arena, Grow War, 吞噬竞技, 成长游戏, 网页小游戏, 排行榜, 多人对战, 浏览器游戏",
+      "publisher": { "@id": "https://tiback.com/#organization" },
+      "isPartOf": { "@id": "https://tiback.com/#website" },
+      "image": "https://tiback.com/assets/grow-arena.jpg",
+      "screenshot": "https://tiback.com/assets/grow-arena.jpg",
+      "softwareHelp": "https://grow-war.tiback.com/",
+      "potentialAction": {
+        "@type": "UseAction",
+        "name": "Play Grow Arena",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://grow-war.tiback.com/",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform"
+          ]
+        }
+      },
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-20"
+    },
+    {
       "@type": "FAQPage",
       "@id": "https://tiback.com/#faq",
       "mainEntity": [
@@ -356,7 +492,7 @@
           "name": "tiback 是什么？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "tiback 是一个独立工具工作室，专门把求职、文档和写作里高频但琐碎的步骤做成即开即用的小工具。目前运营 RoleCase、OFD 在线转换器和 Markdown 编辑器三个产品。"
+            "text": "tiback 是一个独立工具工作室，专门把求职、文档和写作里高频但琐碎的步骤做成即开即用的小工具，也做轻量的浏览器游戏。目前运营 RoleCase、OFD 在线转换器、Markdown 编辑器、圆环竞技场和 Grow Arena 五个产品。"
           }
         },
         {
@@ -364,7 +500,15 @@
           "name": "tiback 目前提供哪些工具？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "tiback 目前提供三个工具：RoleCase 用于生成证据优先的英文求职申请材料；OFD 在线转换器用于把 OFD 转成 PDF 或 PNG，并提供 Python wheel；Markdown 编辑器用于在浏览器里本地写作、预览和导出 Markdown。"
+            "text": "tiback 目前提供五个产品：RoleCase 用于生成证据优先的英文求职申请材料；OFD 在线转换器用于把 OFD 转成 PDF 或 PNG，并提供 Python wheel；Markdown 编辑器用于在浏览器里本地写作、预览和导出 Markdown；圆环竞技场是一款自动生产、圈选指挥的策略对战小游戏；Grow Arena 是一款吞噬成长的多人竞技小游戏。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "tiback 有哪些游戏？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "tiback 目前有两款浏览器游戏：圆环竞技场支持 3–6 人对战，基地自动生产兵种，玩家圈选部队指挥并争夺中立建筑；Grow Arena 支持 10 人和 16 人模式，玩家收集能量、不断变大并吞噬更小的目标。两款游戏都免费，打开网页即可游玩。"
           }
         },
         {
@@ -396,7 +540,7 @@
           "name": "tiback 的工具怎么收费？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "OFD 在线转换器和 Markdown 编辑器是免费的。RoleCase 提供免费的基础简历检查，以及一次性付费的高质量简历评审和岗位定制申请材料包，没有订阅费用。"
+            "text": "OFD 在线转换器、Markdown 编辑器、圆环竞技场和 Grow Arena 都是免费的。RoleCase 提供免费的基础简历检查，以及一次性付费的高质量简历评审和岗位定制申请材料包，没有订阅费用。"
           }
         },
         {
@@ -404,7 +548,7 @@
           "name": "这些工具支持手机使用吗？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "三个工具都是 Web 应用，可以在手机、平板和桌面浏览器的现代版本中打开。涉及大量文本输入或复杂文档预览时，桌面浏览器体验更好。"
+            "text": "五个产品都是 Web 应用，可以在手机、平板和桌面浏览器的现代版本中打开。涉及大量文本输入或复杂文档预览时，桌面浏览器体验更好；两款游戏也支持在手机浏览器中游玩。"
           }
         },
         {
@@ -412,7 +556,7 @@
           "name": "如何开始使用 tiback 的工具？",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "打开 tiback.com，选择需要的工具即可开始使用。求职材料选择 RoleCase；OFD 转 PDF / PNG 选择 OFD 在线转换器；Markdown 写作选择 Markdown 编辑器。所有工具都可以直接在浏览器中运行。"
+            "text": "打开 tiback.com，选择需要的产品即可开始使用。求职材料选择 RoleCase；OFD 转 PDF / PNG 选择 OFD 在线转换器；Markdown 写作选择 Markdown 编辑器；策略对战选择圆环竞技场；吞噬竞技选择 Grow Arena。所有产品都可以直接在浏览器中运行。"
           }
         }
       ]
@@ -527,6 +671,88 @@
           "text": "在右侧实时预览排版，然后导出 Markdown、HTML、Word、PDF 或 PNG 长图。"
         }
       ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://tiback.com/#howto-circle-war",
+      "name": "如何开始玩圆环竞技场",
+      "description": "打开网页即可开始一局自动生产、圈选指挥的策略对战。",
+      "totalTime": "PT5M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "圆环竞技场",
+          "url": "https://circle-war.tiback.com/"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "打开游戏",
+          "text": "访问 circle-war.tiback.com，在浏览器中直接开始游戏。",
+          "url": "https://circle-war.tiback.com/"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "选择初始兵种和指挥官技能",
+          "text": "确定本局的生产单位和指挥官技能，基地会按生产队列持续出兵。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "圈选部队并下达命令",
+          "text": "拖动圈选多个单位，点击目标移动或集中攻击，同时争夺中立建筑。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "选择强化并摧毁对手基地",
+          "text": "每轮战斗后从强化选项中选择一项，逐步扩大优势并赢下对局。"
+        }
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://tiback.com/#howto-grow-war",
+      "name": "如何开始玩 Grow Arena",
+      "description": "打开浏览器，进入吞噬竞技场，收集能量、成长并挑战排行榜。",
+      "totalTime": "PT5M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Grow Arena",
+          "url": "https://grow-war.tiback.com/"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "打开游戏",
+          "text": "访问 grow-war.tiback.com，浏览器会自动创建一个匿名会话。",
+          "url": "https://grow-war.tiback.com/"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "选择模式",
+          "text": "选择 10 人或 16 人模式，开始一局吞噬竞技。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "收集能量并成长",
+          "text": "在竞技场里收集能量、吞噬更小的目标，同时躲避更大的对手。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "结算并查看排行榜",
+          "text": "对局结束后获得金币，用于购买外观和背景，也可以查看排行榜和个人记录。"
+        }
+      ]
     }
   ]
 }
@@ -556,6 +782,7 @@
 
         <nav class="site-nav" id="site-nav" aria-label="主导航">
           <a href="#tools">工具</a>
+          <a href="#games">游戏</a>
           <a href="#principles">原则</a>
           <a href="#contact">联系</a>
           <a class="nav-cta" href="#tools">浏览工具</a>
@@ -570,10 +797,11 @@
           <h1>tiback</h1>
           <p class="hero-lede">
             我们把求职、文档和写作里最重复的步骤，<br />
-            做成即开即用的小工具。
+            做成即开即用的小工具；也做了两款打开就能玩的小游戏。
           </p>
           <div class="hero-actions">
             <a class="button button-primary" href="#tools">浏览全部工具</a>
+            <a class="button button-ghost" href="#games">玩小游戏</a>
             <a class="button button-ghost" href="mailto:support@tiback.com">联系我们</a>
           </div>
 
@@ -587,6 +815,12 @@
             <a href="https://markdown.tiback.com/" target="_blank" rel="noopener">
               <span class="dot dot-indigo"></span>markdown.tiback.com
             </a>
+            <a href="https://circle-war.tiback.com/" target="_blank" rel="noopener">
+              <span class="dot dot-teal"></span>circle-war.tiback.com
+            </a>
+            <a href="https://grow-war.tiback.com/" target="_blank" rel="noopener">
+              <span class="dot dot-violet"></span>grow-war.tiback.com
+            </a>
           </div>
         </div>
       </section>
@@ -595,7 +829,7 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow"><span></span> 我们的工具</p>
-            <h2>三个工具，各管一件事。</h2>
+            <h2>三个效率工具，各管一件事。</h2>
             <p>
               不做大而全的平台，只把一类高频问题做到顺手。每个工具都能独立使用，也可以串起来完成一整套工作流。
             </p>
@@ -670,6 +904,64 @@
         </div>
       </section>
 
+      <section class="games" id="games">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow"><span></span> 小游戏</p>
+            <h2>忙完工作，来一局。</h2>
+            <p>
+              两款轻量浏览器游戏：一款是指挥单位、争夺中立的策略对战，一款是吃掉能量、逐渐变大的吞噬竞技。打开网页就能玩，无需安装。
+            </p>
+          </div>
+
+          <div class="games-grid">
+            <article class="game-card game-card-circlewar">
+              <figure class="tool-media tool-media-circlewar">
+                <img src="assets/circle-arena.png" alt="" width="96" height="96" />
+                <figcaption>3–6 人 · 自动战斗</figcaption>
+              </figure>
+              <div class="tool-body">
+                <div class="tool-title-row">
+                  <h3>圆环竞技场</h3>
+                  <a class="tool-open" href="https://circle-war.tiback.com/" target="_blank" rel="noopener" aria-label="打开圆环竞技场">↗</a>
+                </div>
+                <p class="tool-tagline">自动生产、手动指挥的策略对战</p>
+                <p class="tool-desc">
+                  基地持续出兵，拖动圈选部队下达命令；占领中立建筑、选择战术强化，摧毁对手基地赢下每局。
+                </p>
+                <ul class="tool-tags" aria-label="圆环竞技场特点">
+                  <li>3–6 人对战</li>
+                  <li>圈选指挥</li>
+                  <li>三选一强化</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="game-card game-card-growwar">
+              <figure class="tool-media tool-media-growwar">
+                <img src="assets/grow-arena.jpg" alt="Grow Arena 游戏画面" loading="lazy" />
+                <figcaption>10 / 16 人 · 吞噬竞技</figcaption>
+              </figure>
+              <div class="tool-body">
+                <div class="tool-title-row">
+                  <h3>Grow Arena</h3>
+                  <a class="tool-open" href="https://grow-war.tiback.com/" target="_blank" rel="noopener" aria-label="打开 Grow Arena">↗</a>
+                </div>
+                <p class="tool-tagline">吃掉能量，慢慢变大的吞噬竞技</p>
+                <p class="tool-desc">
+                  在竞技场里收集能量、不断成长，躲避更大的对手并吞噬更小的目标；支持 10 人和 16 人模式、排行榜、金币和外观商店。
+                </p>
+                <ul class="tool-tags" aria-label="Grow Arena 特点">
+                  <li>10 / 16 人模式</li>
+                  <li>排行榜</li>
+                  <li>外观商店</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
       <section class="principles" id="principles">
         <div class="container">
           <div class="section-heading">
@@ -725,6 +1017,11 @@
             <a href="https://rolecase.tiback.com/" target="_blank" rel="noopener">RoleCase</a>
             <a href="https://ofd2pdf.tiback.com/" target="_blank" rel="noopener">OFD 在线转换器</a>
             <a href="https://markdown.tiback.com/" target="_blank" rel="noopener">Markdown 编辑器</a>
+          </div>
+          <div>
+            <h3>游戏</h3>
+            <a href="https://circle-war.tiback.com/" target="_blank" rel="noopener">圆环竞技场</a>
+            <a href="https://grow-war.tiback.com/" target="_blank" rel="noopener">Grow Arena</a>
           </div>
           <div>
             <h3>关于</h3>

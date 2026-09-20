@@ -1,10 +1,12 @@
 # tiback 官方网站
 
-这是 tiback 的静态官网，用于介绍并聚合我们运营的三个工具：
+这是 tiback 的静态官网，用于介绍并聚合我们运营的五个产品：
 
 - [RoleCase](https://rolecase.tiback.com/) — 英文求职申请材料生成工具
 - [OFD 在线转换器](https://ofd2pdf.tiback.com/) — OFD 转 PDF / PNG，附 Python 库
 - [Markdown 编辑器](https://markdown.tiback.com/) — 浏览器本地 Markdown 写作工具
+- [圆环竞技场](https://circle-war.tiback.com/) — 自动生产、圈选指挥的策略对战小游戏
+- [Grow Arena](https://grow-war.tiback.com/) — 吞噬成长的浏览器竞技游戏
 
 ## 本地预览
 
@@ -52,6 +54,8 @@ python3 -m http.server 4173
 ├── main.js         # 移动端导航交互
 ├── favicon.svg     # 站点图标
 ├── assets/         # 产品图标与截图
+├── ai-knowledge.jsonld  # 面向搜索引擎与 AI 的结构化知识图谱
+├── llms.txt        # 面向 LLM 的站点说明入口
 ├── robots.txt
 ├── sitemap.xml
 └── _headers        # Cloudflare Pages 安全响应头

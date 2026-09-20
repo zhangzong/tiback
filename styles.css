@@ -271,6 +271,14 @@ img {
   background: var(--indigo);
 }
 
+.dot-teal {
+  background: #2dd4bf;
+}
+
+.dot-violet {
+  background: #a78bfa;
+}
+
 /* Section headings */
 .section-heading {
   max-width: 720px;
@@ -440,6 +448,120 @@ img {
   padding: 5px 9px;
 }
 
+/* Games */
+.games {
+  padding: 96px 0;
+  background: #101619;
+  color: #f4f7f2;
+}
+
+.games .section-heading .eyebrow {
+  color: #7dd3fc;
+}
+
+.games .section-heading .eyebrow span {
+  background: #7dd3fc;
+}
+
+.games .section-heading h2 {
+  color: #ffffff;
+}
+
+.games .section-heading p {
+  color: #a8b3ac;
+}
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.game-card {
+  border: 1px solid #2a363b;
+  border-radius: var(--radius);
+  background: #182125;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card-circlewar {
+  border-top: 4px solid #2dd4bf;
+}
+
+.game-card-growwar {
+  border-top: 4px solid #a78bfa;
+}
+
+.game-card .tool-title-row h3 {
+  color: #ffffff;
+}
+
+.game-card .tool-tagline {
+  color: #9fb0a8;
+}
+
+.game-card .tool-desc {
+  color: #c3cec7;
+}
+
+.game-card .tool-tags li {
+  background: #202c31;
+  border-color: #334248;
+  color: #a8b3ac;
+}
+
+.game-card .tool-open {
+  border-color: #334248;
+  color: #a8b3ac;
+}
+
+.game-card .tool-open:hover {
+  color: #ffffff;
+  border-color: #7dd3fc;
+}
+
+.tool-media-circlewar {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(45, 212, 191, 0.24), transparent 58%),
+    #0b1418;
+}
+
+.tool-media-circlewar img {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  box-shadow: 0 14px 34px rgba(45, 212, 191, 0.28);
+}
+
+.tool-media-circlewar figcaption {
+  color: #7dd3fc;
+}
+
+.tool-media-growwar {
+  padding: 0;
+  background: #0b1418;
+}
+
+.tool-media-growwar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.86;
+}
+
+.tool-media-growwar figcaption {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  color: #ffffff;
+  background: rgba(7, 17, 28, 0.72);
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
 /* Principles */
 .principles {
   padding: 96px 0;
@@ -533,6 +655,7 @@ img {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 72px;
 }
 
@@ -622,6 +745,7 @@ img {
 /* Responsive */
 @media (max-width: 860px) {
   .tools-grid,
+  .games-grid,
   .principles-grid {
     grid-template-columns: 1fr;
   }
